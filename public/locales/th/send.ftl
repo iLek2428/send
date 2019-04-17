@@ -1,6 +1,6 @@
 # Firefox Send is a brand name and should not be localized.
 title = Firefox Send
-siteFeedback = Feedback
+siteFeedback = ข้อเสนอแนะ
 importingFile = กำลังนำเข้า…
 encryptingFile = กำลังเข้ารหัส…
 decryptingFile = กำลังถอดรหัส…
@@ -19,30 +19,30 @@ downloadButtonLabel = ดาวน์โหลด
 downloadFinish = ดาวน์โหลดเสร็จสมบูรณ์
 fileSizeProgress = ({ $partialSize } of { $totalSize })
 sendYourFilesLink = ทดลอง Firefox Send
-errorPageHeader = Something went wrong!
-fileTooBig = That file is too big to upload. It should be less than { $size }
+errorPageHeader = มีปัญหาบางอย่างเกิดขึ้น!
+fileTooBig = ขนาดไฟล์ใหญ่เกินไป. โปรดอัปโหลดไฟล์ขนาดไม่เกิน { $size }
 linkExpiredAlt = ลิงก์หมดอายุ
 notSupportedHeader = เว็บเบราว์เซอร์ของคุณไม่รองรับ
 notSupportedLink = ทำไมเว็บเบราว์เซอร์ของฉันถึงไม่รองรับ?
-notSupportedOutdatedDetail = Unfortunately this version of Firefox does not support the web technology that powers Firefox Send. You’ll need to update your browser.
-updateFirefox = อัปเดตไฟฟอกซ์
+notSupportedOutdatedDetail = น่าเสียดายที่ Firefox รุ่นนี้ไม่รองรับเว็บเทคโนโลยีของ Firefox Send คุณจำเป็นจะต้องอัปเดตเบราว์เซอร์
+updateFirefox = อัปเดต Fierfox
 deletePopupCancel = ยกเลิก
 deleteButtonHover = ลบ
-footerLinkLegal = Legal
-footerLinkPrivacy = Privacy
-footerLinkCookies = Cookies
-passwordTryAgain = Incorrect password. Try again.
-javascriptRequired = Firefox Send requires JavaScript
-whyJavascript = Why does Firefox Send require JavaScript?
-enableJavascript = Please enable JavaScript and try again.
+footerLinkLegal = กฏหมาย
+footerLinkPrivacy = นโยบาย
+footerLinkCookies = คุ๊กกี้
+passwordTryAgain = รหัสผ่านไม่ถูกต้อง กรุณาลองใหม่อีกครั้ง
+javascriptRequired = Firefox Send ต้องการ JavaScript
+whyJavascript = ทำไม Firefox Send ต้องการ JavaScript?
+enableJavascript = โปรดเปิดใช้งาน JavaScript และทดลองเข้าใช้งานใหม่อีกครั้ง
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
-expiresHoursMinutes = { $hours }h { $minutes }m
+expiresHoursMinutes = { $hours } ชม. { $minutes } น.
 # A short representation of a countdown timer containing the number of minutes remaining as digits, example "56m"
-expiresMinutes = { $minutes }m
+expiresMinutes = { $minutes } น.
 # A short status message shown when the user enters a long password
-maxPasswordLength = Maximum password length: { $length }
+maxPasswordLength = ความยาวรหัสผ่านสูงสุด: { $length }
 # A short status message shown when there was an error setting the password
-passwordSetError = This password could not be set
+passwordSetError = ไม่สามารถตั้งรหัสผ่านนี้ได้
 
 ## Send version 2 strings
 
@@ -52,26 +52,26 @@ passwordSetError = This password could not be set
 -firefox = Firefox
 -mozilla = Mozilla
 
-introTitle = Simple, private file sharing
+introTitle = การแบ่งปันไฟล์ส่วนตัวที่เรียบง่าย
 introDescription = { -send-brand } lets you share files with end-to-end encryption and a link that automatically expires. So you can keep what you share private and make sure your stuff doesn’t stay online forever.
-notifyUploadEncryptDone = Your file is encrypted and ready to send
+notifyUploadEncryptDone = ไฟล์ของคุณถูกเข้ารหัสเรียบร้อย และพร้อมที่จะส่งแล้ว
 # downloadCount is from the downloadCount string and timespan is a timespanMinutes string. ex. 'Expires after 2 downloads or 25 minutes'
-archiveExpiryInfo = Expires after { $downloadCount } or { $timespan }
+archiveExpiryInfo = หมดอายุหลังจาก { $downloadCount } or { $timespan }
 timespanMinutes = { $num ->
-        [one] 1 minute
-       *[other] { $num } minutes
+        [one] 1 นาที
+       *[other] { $num } นาที
     }
 timespanDays = { $num ->
-        [one] 1 day
-       *[other] { $num } days
+        [one] 1 วัน
+       *[other] { $num } วัน
     }
 timespanWeeks = { $num ->
-        [one] 1 week
-       *[other] { $num } weeks
+        [one] 1 สัปดาห์
+       *[other] { $num } สัปดาห์
     }
 fileCount = { $num ->
-    [one] 1 file
-   *[other] { $num } files
+    [one] 1 ไฟล์
+   *[other] { $num } ไฟล์
 }
 # byte abbreviation
 bytes = B
@@ -86,11 +86,11 @@ fileSize = { $num }{ $units }
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 totalSize = Total size: { $size }
 # the next line after the colon contains a file name
-copyLinkDescription = Copy the link to share your file:
-copyLinkButton = Copy link
-downloadTitle = Download files
-downloadDescription = This file was shared via { -send-brand } with end-to-end encryption and a link that automatically expires.
-trySendDescription = Try { -send-brand } for simple, safe file sharing.
+copyLinkDescription = คัดลอกลิงก์และแบ่งปันไฟล์ของคุณ:
+copyLinkButton = คัดลอกลิงก์
+downloadTitle = ดาวน์โหลดไฟล์
+downloadDescription = ไฟล์นี้ถูกส่งผ่าน { -send-brand } ด้วยการเข้ารหัสแบบ end-to-end encryption และลิงก์จะหมดอายุโดยอัตโนมัติ
+trySendDescription = ทดลอง { -send-brand } ที่เรียบง่าย และปลอดภัยสำหรับการแบ่งปัน
 # count will always be > 10
 tooManyFiles = { $count ->
      [one] Only 1 file can be uploaded at a time.
